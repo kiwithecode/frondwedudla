@@ -55,7 +55,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">BIENVENIDOS AL PROYECTO XXX</span>
+                <span className="tagline">BIENVENIDOS AL PROYECTO </span>
                 <h1>{`¿Qué es el `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "seguimiento ocular?" ]'><span className="wrap">{text}</span></span></h1>
                   <p>El seguimiento ocular es un tipo de tecnología de sensor que brinda a una computadora las herramientas para comprender y rastrear hacia dónde mira una persona.</p>
                   <br></br>
